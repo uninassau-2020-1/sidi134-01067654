@@ -1,0 +1,17 @@
+{
+  "name": "projeto1",
+  "version": "1.0.0",
+  "description": "Projeto Sistemas Distribuidos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dev": "nodemon ./bin/www --trace-warnings -trace-sync-io",
+  "dev1": "ng serve --live-reload --progress --host 0.0.0.0 --port 8082",
+  "author": "Jorge Lucas",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.2.3",
+    "express": "^4.17.1"
+  }
+}
